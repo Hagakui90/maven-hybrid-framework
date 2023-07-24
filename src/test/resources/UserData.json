@@ -1,0 +1,20 @@
+{
+	"firstName":"Hana",
+	"lastName":"Pham",
+	"emailAddress":"hagakui90",
+	"password":"123456",
+	"date":"6",
+	"month":"August",
+	"year":"1999"
+	},
+	"subjects": [
+		{
+			"name":"Math",
+			"point":10.0
+		},
+		{
+			"name":"Physical",
+			"point":8.5
+		}
+	]
+}

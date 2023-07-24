@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Wordpress - Admin">
+	<listeners>
+	<listener class-name="commons.MethodListener" />
+	<listener class-name="reportConfig.ReportNGListener" />
+	<!-- <listener class-name="reportConfig.ExtentReportListenerV2" /> -->
+	<!-- <listener class-name="reportConfig.ExtentTestListener"/> -->
+	<!--<listener class-name="reportConfig.AllureTestListener"/>-->
+	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<parameter name="urlAdmin" value="https://illustrationworld.net/wp-admin" />
+	<parameter name="urlUser" value="https://illustrationworld.net" />
+
+     <test name="Run on chrome">
+  		<parameter name="browser" value="chrome"></parameter>
+    	<classes>
+      		<class name="com.wordpress.admin.Posts_01_Create_Read_Update_Delete_Search"/>
+    	</classes>
+  	</test> <!-- Test -->
+  	
+ 
+</suite> <!-- Suite -->

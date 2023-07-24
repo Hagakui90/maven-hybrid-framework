@@ -1,0 +1,230 @@
+[INFO ] [2023-07-23 17:47:50,925] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-23 17:47:56,531] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-23 17:47:57,903] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-23 17:47:58,082] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-23 17:47:58,743] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui907660@fakemail.com'
+[INFO ] [2023-07-23 17:47:59,020] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-23 17:47:59,180] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-23 17:47:59,339] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-23 17:48:00,138] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-23 17:48:00,228]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:00,228] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-23 17:48:00,735] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-23 17:48:01,198] Login - Step 02: Enter to EmailAddress textbox with value is hagakui907660@fakemail.com
+[INFO ] [2023-07-23 17:48:01,358] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-23 17:48:01,500] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-23 17:48:02,241] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-23 17:48:02,337]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:02,342] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-23 17:48:02,806] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-23 17:48:02,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:02,883] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-23 17:48:02,944]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:02,945] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-23 17:48:03,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:03,005] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-23 17:48:03,066]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 17:48:03,070] OS name = windows 10
+[INFO ] [2023-07-23 17:48:03,070] Driver instance name = chromedriver: chrome on windows (68cc27a34455c2e19fbaf78b56eb48a4)
+[INFO ] [2023-07-23 20:05:57,921] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-23 20:06:03,364] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-23 20:06:04,705] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-23 20:06:04,917] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-23 20:06:05,565] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui903673@fakemail.com'
+[INFO ] [2023-07-23 20:06:05,821] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-23 20:06:05,984] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-23 20:06:06,148] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-23 20:06:06,922] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-23 20:06:07,006]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-07-23 20:06:07,008] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-23 20:11:04,309] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-23 20:11:09,105] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-23 20:11:10,444] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-23 20:11:10,617] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-23 20:11:11,299] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui907794@fakemail.com'
+[INFO ] [2023-07-23 20:11:11,554] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-23 20:11:11,759] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-23 20:11:11,904] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-23 20:11:12,736] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-23 20:11:12,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:12,821] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-23 20:11:13,394] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-23 20:11:13,873] Login - Step 02: Enter to EmailAddress textbox with value is hagakui907794@fakemail.com
+[INFO ] [2023-07-23 20:11:14,034] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-23 20:11:14,188] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-23 20:11:14,973] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-23 20:11:15,068]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:15,074] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-23 20:11:15,551] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-23 20:11:15,635]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:15,636] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-23 20:11:15,711]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:15,711] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-23 20:11:15,787]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:15,788] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-23 20:11:15,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-23 20:11:15,851] OS name = windows 10
+[INFO ] [2023-07-23 20:11:15,851] Driver instance name = chromedriver: chrome on windows (092882ae94db1bb32513e32c1a2c2628)
+[INFO ] [2023-07-24 04:00:05,980] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-24 04:00:12,649] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-24 04:00:14,068] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-24 04:00:14,271] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-24 04:00:15,003] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui904882@fakemail.com'
+[INFO ] [2023-07-24 04:00:15,277] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-24 04:00:15,450] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-24 04:00:15,648] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-24 04:00:16,443] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-24 04:00:16,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:16,553] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-24 04:00:17,092] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-24 04:00:17,556] Login - Step 02: Enter to EmailAddress textbox with value is hagakui904882@fakemail.com
+[INFO ] [2023-07-24 04:00:17,714] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-24 04:00:17,861] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-24 04:00:18,833] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-24 04:00:18,924]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:18,930] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-24 04:00:19,374] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-24 04:00:19,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:19,455] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-24 04:00:19,516]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:19,517] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-24 04:00:19,578]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:19,578] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-24 04:00:19,640]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:00:19,643] OS name = windows 10
+[INFO ] [2023-07-24 04:00:19,644] Driver instance name = chromedriver: chrome on windows (d8ba4be8df194f2f65adeeb01db4dbd1)
+[INFO ] [2023-07-24 04:12:38,344] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-24 04:12:44,263] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-24 04:12:45,903] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-24 04:12:46,087] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-24 04:12:46,746] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui902194@fakemail.com'
+[INFO ] [2023-07-24 04:12:47,004] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-24 04:12:47,166] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-24 04:12:47,317] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-24 04:12:48,232] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-24 04:12:48,314]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:12:48,314] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-24 04:12:48,974] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-24 04:13:20,338] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-24 04:13:21,331] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-24 04:13:21,425]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:13:21,425] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-24 04:13:21,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:13:21,501] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-24 04:13:21,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:13:21,579] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-24 04:13:21,656]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:13:21,659] OS name = windows 10
+[INFO ] [2023-07-24 04:13:21,660] Driver instance name = chromedriver: chrome on windows (e79059189c41d46d70033e0fa5615892)
+[INFO ] [2023-07-24 04:14:36,829] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-24 04:14:42,223] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-24 04:14:43,633] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-24 04:14:43,822] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-24 04:14:44,526] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui901426@fakemail.com'
+[INFO ] [2023-07-24 04:14:44,797] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-24 04:14:44,960] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-24 04:14:45,116] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-24 04:14:45,933] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-24 04:14:46,016]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:46,016] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-24 04:14:46,610] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-24 04:14:47,080] Login - Step 02: Enter to EmailAddress textbox with value is hagakui901426@fakemail.com
+[INFO ] [2023-07-24 04:14:47,224] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-24 04:14:47,359] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-24 04:14:48,165] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-24 04:14:48,255]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:48,260] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-24 04:14:48,745] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-24 04:14:48,822]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:48,822] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-24 04:14:48,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:48,883] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-24 04:14:48,946]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:48,947] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-24 04:14:49,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:14:49,011] OS name = windows 10
+[INFO ] [2023-07-24 04:14:49,012] Driver instance name = chromedriver: chrome on windows (ffbc098f969e84dac9e7f0ac05a42348)
+[INFO ] [2023-07-24 04:29:19,823] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-24 04:29:29,260] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-24 04:29:30,649] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-24 04:29:30,841] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-24 04:29:31,514] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui908766@fakemail.com'
+[INFO ] [2023-07-24 04:29:31,775] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-24 04:29:31,938] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-24 04:29:32,091] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-24 04:29:32,796] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-24 04:29:32,879]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-07-24 04:29:32,881] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-24 04:29:34,252] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-24 04:29:34,723] Login - Step 02: Enter to EmailAddress textbox with value is hagakui908766@fakemail.com
+[INFO ] [2023-07-24 04:29:34,862] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-24 04:29:35,000] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-24 04:29:35,747] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-24 04:29:35,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:29:35,855] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-24 04:29:36,309] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-24 04:29:36,394]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:29:36,394] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-24 04:29:36,452]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:29:36,453] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-24 04:29:36,529]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:29:36,529] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-24 04:29:36,591]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-24 04:29:36,594] OS name = windows 10
+[INFO ] [2023-07-24 04:29:36,595] Driver instance name = chromedriver: chrome on windows (c217ef5287cedcba52fbd7b13fb6ff64)
+[INFO ] [2023-07-25 03:48:03,695] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-25 03:48:11,043] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-25 03:48:12,734] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-25 03:48:13,038] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-25 03:48:13,794] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui906009@fakemail.com'
+[INFO ] [2023-07-25 03:48:14,071] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-25 03:48:14,235] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-25 03:48:14,394] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-25 03:48:15,485] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-25 03:48:15,569]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-07-25 03:48:15,571] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-25 03:48:17,227] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-25 03:48:17,768] Login - Step 02: Enter to EmailAddress textbox with value is hagakui906009@fakemail.com
+[INFO ] [2023-07-25 03:48:17,915] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-25 03:48:18,049] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-25 03:48:19,282] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-25 03:48:19,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 03:48:19,392] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-25 03:48:20,210] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-25 03:48:20,288]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 03:48:20,289] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-25 03:48:20,348]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 03:48:20,348] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-25 03:48:20,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 03:48:20,409] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-25 03:48:20,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 03:48:20,475] OS name = windows 10
+[INFO ] [2023-07-25 03:48:20,475] Driver instance name = chromedriver: chrome on windows (2cf4aedcb84ce7a1dbc71daaeec19024)
+[INFO ] [2023-07-25 04:09:29,123] Pre-Condition - Step 01: Open site
+[INFO ] [2023-07-25 04:09:35,267] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2023-07-25 04:09:36,587] Register - Step 02: Enter to Firstname textbox with value is 'Hana'
+[INFO ] [2023-07-25 04:09:36,791] Register - Step 03: Enter to Lastname textbox with value is 'Pham'
+[INFO ] [2023-07-25 04:09:37,472] Register - Step 04: Enter to EmailAddress textbox with value is 'hagakui907758@fakemail.com'
+[INFO ] [2023-07-25 04:09:37,748] Register - Step 05: Enter to password textbox with value is '123456'
+[INFO ] [2023-07-25 04:09:37,912] Register - Step 06: Enter to confirm password textbox with value is '123456'
+[INFO ] [2023-07-25 04:09:38,084] Register - Step 07: Click to 'Register' button
+[INFO ] [2023-07-25 04:09:38,907] Register - Step 08: Verify register success messsage is displayed
+[INFO ] [2023-07-25 04:09:38,981]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-07-25 04:09:38,983] Register - Step 09: CLick to Logout link
+[INFO ] [2023-07-25 04:09:40,392] Login - Step 01: Navigate to Login page
+[INFO ] [2023-07-25 04:09:40,847] Login - Step 02: Enter to EmailAddress textbox with value is hagakui907758@fakemail.com
+[INFO ] [2023-07-25 04:09:40,994] Login - Step 03: Enter to password textbox with value is 123456'
+[INFO ] [2023-07-25 04:09:41,127] Login - Step 04: Click to 'Login' button
+[INFO ] [2023-07-25 04:09:41,876] Login - Step 05: Verify 'My account' link is displayed
+[INFO ] [2023-07-25 04:09:41,976]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 04:09:41,981] Login - Step 01: Navigate to 'My account' page
+[INFO ] [2023-07-25 04:09:42,432] Login - Step 02: Verify 'My account' page is displayed
+[INFO ] [2023-07-25 04:09:42,518]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 04:09:42,518] Login - Step 03: Verify 'First Name' value is correctly
+[INFO ] [2023-07-25 04:09:42,580]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 04:09:42,580] Login - Step 04: Verify 'Last Name' value is correctly
+[INFO ] [2023-07-25 04:09:42,639]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 04:09:42,640] Login - Step 05: Verify 'Email' value is correctly
+[INFO ] [2023-07-25 04:09:42,704]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-07-25 04:09:42,708] OS name = windows 10
+[INFO ] [2023-07-25 04:09:42,708] Driver instance name = chromedriver: chrome on windows (dc09ea10cd7093c6a750ac8e783d58d8)
