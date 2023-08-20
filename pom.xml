@@ -23,11 +23,14 @@
 		<jackson.version>2.10.0</jackson.version>
 		<webdrivermanager.version>5.3.1</webdrivermanager.version>
 		<aspectj.version>1.9.8</aspectj.version>
-		<allure.version>2.13.5</allure.version>
+		<allure.version>2.18.1</allure.version>
 		<extent.version>5.0.8</extent.version>
 		<faker.version>1.0.1</faker.version>
 		<log4j.version>1.2.16</log4j.version>
 		<reportng.version>1.1.4</reportng.version>
+		
+		<!-- Default value-->
+		<environment>dev</environment>
 	</properties>
   
   
@@ -137,6 +140,13 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
+		
+		<dependency>
+   		 	<groupId>org.aeonbits.owner</groupId>
+   		 	<artifactId>owner</artifactId>
+    		<version>1.0.12</version>
+		</dependency>
+
 	</dependencies>
 	
 	<!-- Compiler/ Run Test -->
@@ -161,10 +171,10 @@
 				<version>2.22.2</version>
 				<configuration>
 					<!-- Run TestNG xml file -->
-					<suiteXmlFiles>
-						<file>src/test/resources/runNopCommerceUser.xml</file>
+					<suiteXmlFiles> 
+						<suiteXmlFile>src/test/resources/runNopCommerceUser.xml </suiteXmlFile>
 					</suiteXmlFiles>
-
+					
 					<!-- Argument -->
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

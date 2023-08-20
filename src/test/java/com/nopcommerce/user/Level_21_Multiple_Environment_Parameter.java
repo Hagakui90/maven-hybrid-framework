@@ -1,14 +1,11 @@
 package com.nopcommerce.user;
 
-import java.lang.reflect.Method;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
 import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
@@ -17,9 +14,8 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
-import reportConfig.ExtentTestManager;
 
-public class Level_21_Manage_Data_Data_Driven extends BaseTest {
+public class Level_21_Multiple_Environment_Parameter extends BaseTest {
 
 	private WebDriver driver;
 	private UserHomePageObject homePage;
@@ -33,8 +29,7 @@ public class Level_21_Manage_Data_Data_Driven extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName, String url) {
 		log.info("Pre-Condition - Step 01: Open site");
-		this.url = url;
-		driver = getBrowserDriver(browserName, this.url);
+		driver = getBrowserDriver(browserName, url);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@fakemail.com";
@@ -42,17 +37,13 @@ public class Level_21_Manage_Data_Data_Driven extends BaseTest {
 	}
 
 	@Test
-	public void Login_01_Register(Method method) {
-		ExtentTestManager.startTest(method.getName(), "User_01_Register");
-		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 01: Navigate to 'Register' page");
-
-		log.info("Register - Step 01: Navigate to 'Register' page");
+	public void Login_01_Register() {
+		log.info("Register - Step 01: Navigate to 'Register' page\n");
 
 		registerPage = homePage.openRegisterPage();
 
 		registerPage.clickToRadioButtonByLabel(driver, "Male");
 
-		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 02: Enter to Firstname textbox with value is '" + userData.getFirstName() + "'");
 		log.info("Register - Step 02: Enter to Firstname textbox with value is '" + userData.getFirstName() + "'");
 		registerPage.inputToTextboxByID(driver, "FirstName", userData.getFirstName());
 
